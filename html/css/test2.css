@@ -1,3 +1,8 @@
+/*!
+ * Helper css for Epicodus test2 bootstrap.
+ * This will override some boostrap.css styles.
+ */
+
 body {
     background-color: grey;
     margin-top: 0;
