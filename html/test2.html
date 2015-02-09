@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Layout Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Toader">
+    <style>
+      body {
+        background-color: grey;
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 0;
+        height: 100%;
+      }
+      p, h1, h2 {
+        padding-left: .5em;
+        padding-right: .5em;
+      }
+      h1 {
+        margin: 0;
+      }
+      .header {
+        background-color: lightgray;
+        padding-left: .5em;
+      }
+      .linkBar {
+        background-color: #E67777;
+        padding-left: .5em;
+      }
+      .linkBar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .linkBar li {
+        display: inline;
+      }
+      .linkDiscs {
+        list-style-type: disc;                        
+      }
+      .column1 {
+        background-color: #86DB86;
+        float: left;
+        min-width: 320px;
+        max-width: 70%;
+        height: 1000px;
+      }
+      .column2 {
+        background-color: #9999FF;
+        max-width: 30%;
+        float: left;   
+        height: 1000px;
+      }
+      @media only screen and (max-width: 480px) {
+        body, .column2 {
+          min-width: 320px;
+        }                
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header"><h1>Simple 2 column CSS layout, final layout</h1></div>
+    <div class="linkBar">
+      <ul>
+        <li><a href="option1.html">Option 1</a></li>
+        <li><a href="option2.html">Option 2</a></li>
+        <li><a href="option3.html">Option 3</a></li>
+        <li><a href="option4.html">Option 4</a></li>
+        <li><a href="option5.html">Option 5</a></li>
+      </ul>
+    </div>
+    <div class="column1">
+      <h2>Column 1</h2>
+      <p><a href="maps.google.com">456 Berea Street Home</a></p>
+      <p><a href="test2.html">Simple 2 column CSS layout</a></p>                
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
+        dapibus tortor vehicula dolor scelerisque euismod. Maecenas at metus 
+        orci. Nam eget ante ut felis imperdiet ullamcorper. Phasellus turpis 
+        risus, posuere sit amet odio ac, dapibus pulvinar libero. Donec pharetra
+        augue venenatis dolor porta varius. Sed id dictum justo. Curabitur in 
+        arcu ullamcorper, congue purus in, commodo nisi. Mauris a feugiat justo.
+        Cras porta nunc ac tellus sagittis aliquam. Class aptent taciti sociosqu
+        ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+        Proin hendrerit mattis arcu facilisis malesuada. Nam et orci in tortor 
+        imperdiet blandit. Donec malesuada, felis quis faucibus volutpat, magna 
+        massa viverra augue, vitae blandit eros tellus quis ante. Mauris quis 
+        iaculis quam. Vivamus eget erat feugiat, ultricies arcu congue, tempor 
+        erat. Cras commodo viverra finibus. Ut quis maximus nulla. Aliquam 
+        gravida enim nec feugiat dignissim. Integer egestas neque leo, pulvinar 
+        gravida leo dapibus non. Etiam commodo leo ut lacus venenatis, non 
+        euismod enim vestibulum. In tristique metus accumsan ligula interdum 
+        blandit. Phasellus aliquam tempus quam, ac tristique libero posuere eget
+        . Aliquam erat volutpat.
+
+        Vivamus ut imperdiet lorem. Proin porttitor posuere leo, at vestibulum 
+        nulla dignissim nec. Mauris lacinia dui mi, quis gravida eros elementum 
+        ut. Proin dui erat, eleifend pellentesque congue vel, tristique bibendum
+        augue. Curabitur dignissim ligula eget nisl auctor interdum. Nullam 
+        molestie, urna vitae auctor rhoncus, mi sapien malesuada velit, id 
+        faucibus magna lacus ac dui. Sed a turpis et neque gravida laoreet eget 
+        id metus. Phasellus at facilisis turpis, nec sagittis diam. Cras egestas
+        laoreet lorem quis efficitur. Ut lobortis commodo urna ut commodo. Nulla
+        ornare magna quam, at congue sapien posuere et. Donec sit amet cursus 
+        dolor. Phasellus at blandit nisl, ac accumsan erat. Nulla egestas mollis
+        dolor quis hendrerit. Duis lobortis est vel mauris hendrerit fringilla.
+      </p>
+    </div>
+    <div class="column2">
+      <h2>Column 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
+        dapibus tortor vehicula dolor scelerisque euismod. Maecenas at metus 
+        orci. Nam eget ante ut felis imperdiet ullamcorper. Phasellus turpis 
+        risus, posuere sit amet odio ac, dapibus pulvinar libero.
+      </p>
+      <ul class="linkDiscs">
+        <li><a href="link1.html">Link 1</a></li>
+        <li><a href="link2.html">Link 2</a></li>
+        <li><a href="link3.html">Link 3</a></li>
+        <li><a href="link4.html">Link 4</a></li>
+        <li><a href="link5.html">Link 5</a></li>
+        <li><a href="link6.html">Link 6</a></li>
+        <li><a href="link7.html">Link 7</a></li>
+        <li><a href="link8.html">Link 8</a></li>
+        <li><a href="link9.html">Link 9</a></li>
+        <li><a href="link10.html">Link 10</a></li>
+        <li><a href="link11.html">Link 11</a></li>
+        <li><a href="link12.html">Link 12</a></li>
+        <li><a href="link13.html">Link 13</a></li>
+        <li><a href="link14.html">Link 14</a></li>
+        <li><a href="link15.html">Link 15</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
